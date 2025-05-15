@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FCF2E9;
+  border-bottom: 1px solid #F1E1D1;
+
+  &__name {
+    font-size: 36px;
+    font-weight: 500;
+    color: #BF5425;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #BF5425;
+    cursor: pointer;
+  }
+}
