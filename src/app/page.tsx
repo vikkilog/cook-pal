@@ -1,13 +1,13 @@
-import Header from '@/app/components/header'
-import Hero from '@/app/components/hero'
-import Recipes from '@/app/components/recipes'
+import Header from "@/app/ui/header";
+import Hero from "@/app/ui/hero";
+import Main from "@/app/ui/main";
 
 export default function Home() {
   return (
-    <div className="main-page">
-      <Header/>
-      <Hero/>
-      <Recipes/>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Main />
+    </>
   );
 }

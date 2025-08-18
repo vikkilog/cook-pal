@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing: 1px;
+
+  /* Colors: */
+  --background: #FFECDB;
+  --font-main: #b75515;
+  --light-beige: #f9e0bd;
+}
+
+body {
+  background: var(--background);
+  color: var(--font-main);
+  font-family: Arial, Helvetica, sans-serif;
+}
