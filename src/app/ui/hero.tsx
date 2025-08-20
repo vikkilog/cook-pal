@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="p-20 flex h-[50vh] justify-center flex-col gap-40">
       <div className="text-6xl flex h-min self-center">
-        Find a perfect receipt
+        Find a perfect recipe
       </div>
       <input
         type="text"
