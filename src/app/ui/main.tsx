@@ -8,8 +8,6 @@ export default async function Main() {
     return <p className="mt-4 text-gray-400">No data available.</p>;
   }
 
-  console.log(recipes.categories);
-
   return (
     <div className="p-20 flex flex-wrap justify-center gap-20 bg-white">
       {recipes.categories.map(
